@@ -42,7 +42,7 @@ public class mostrarDatos extends HttpServlet {
             out.println("<title>Servlet MostrarDatos</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Su nombre es: " + nom +" Su signo es:" + sig + "</h1>");
+            out.println("<h1>Su nombre es: " + nom +" Su signo es: " + sig + ", Hoy Tendras un lindo Dia"+"</h1>");
             out.println("</body>");
             out.println("</html>");
         }
