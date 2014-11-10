@@ -34,7 +34,7 @@ public class mostrarDatos extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             String nom= request.getParameter("Nombre");
-            String sig= request.getParameter("Signo");
+            String sig= request.getParameter("Escoger");
             
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -42,7 +42,7 @@ public class mostrarDatos extends HttpServlet {
             out.println("<title>Servlet MostrarDatos</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Su nombre es: " + nom +" Su signo es:" + sig+ "</h1>");
+            out.println("<h1>Su nombre es: " + nom +" Su signo es:" + sig + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
